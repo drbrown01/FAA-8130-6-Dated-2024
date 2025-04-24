@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FAA 8130-6 Checklist</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="checklist.js"></script>
+</head>
+<body>
+  <h1>FAA 8130-6 Pre-Submission Checklist</h1>
+  <form id="checklist-form">
+    <label><input type="checkbox" name="field1" /> Box 1 completed</label><br />
+    <label><input type="checkbox" name="field2" /> Date is current</label><br />
+    <label><input type="checkbox" name="field3" /> Signatures attached</label><br />
+    <button type="button" onclick="downloadPDF()">Export PDF</button>
+  </form>
+  <a href="oauth/callback.html">OAuth Login</a>
+</body>
+</html>
